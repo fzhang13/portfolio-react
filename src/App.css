@@ -1,32 +1,144 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+body {
+    font: 400 15px;
+    line-height: 1.8;
+    color: #818181;
   }
-  to {
-    transform: rotate(360deg);
+  
+  div.jumbotron.text-center{
+    height: 300px;
   }
-}
+  
+  img.headshot{
+    max-width: 300px;
+    width:100%;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px rgba(0,0,0, 0.5);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+  
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  
+  }  
+  .jumbotron {
+    color: #fff;
+    padding: 100px 25px;
+  
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  footer{
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    font-family : Raleway;
+  }
+  .thumbnail {
+    padding: 0 0 0 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-control.right, .carousel-control.left {
+    color: #313131;
+  }
+  
+  .carousel-indicators li {
+    border-color: #313131;
+  }
+  .carousel-indicators li.active {
+    background-color: #313131;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 2 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #000000 !important;    
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f6f6f6 !important;
+    background-color: #313131 !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  .links a i:hover{
+    color:rgba(red, green, rgb(33, 33, 143), .5);
+  }
+  div{
+    font-family : Raleway;
+  }
+  
+
+  @keyframes slide {
+    0% {
+    opacity: 0;
+    transform: translateY(70%);
+    } 
+    100% {
+    opacity: 1;
+    transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+    } 
+    100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+    text-align: center;
+    margin: 20px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  
+  

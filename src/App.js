@@ -1,26 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Nav from './components/Nav';
+import Jumbotron from './components/Jumbotron';
+import About from './components/About';
+import Skills from './components/Skills';
+import Tools from './components/Tools';
+import Social from './components/Social';
+import Contact from './components/Contact';
+import Cloud from './components/Cloud'
+import Instagram from './components/Instagram'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import './slide'
+import Maps from './components/Maps';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <div>
+     <Nav />
+     <Jumbotron />
+     <About />
+     <Skills />
+     <Tools />
+     <Cloud />
+     <Social />
+     <Maps />
+     <Contact />
+     <Instagram />
+
+
+     </div>
+    
     );
   }
 }
