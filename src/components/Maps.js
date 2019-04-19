@@ -7,7 +7,7 @@ const demoFancyMapStyles = require("react-google-maps/src/components/addons/demo
 
 const MyMapComponent = compose(
   withProps({
-    // googleMapURL: "https://maps.googleapis.com/maps/api/js?key=AIzaSyDH19TQ00A_tuEQiQStjrgAMt98WTSBcf8&callback=initMap"
+
     googleMapURL: "https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places",
     loadingElement: <div style={{ height: `100vh` }} />,
     containerElement: <div style={{ height: `100vh` }} />,
