@@ -12,7 +12,8 @@ import Instagram from './components/Instagram'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import './slide'
-import Maps from './components/Maps';
+import Map from './components/Map';
+import places from './components/places.json';
 
 class App extends Component {
   render() {
@@ -25,7 +26,11 @@ class App extends Component {
      <Tools />
      <Cloud />
      <Social />
-     <Maps />
+     <Map 
+     center={{ lat: 25.0330, lng: 121.5654 }}
+     zoom={2.7}
+     places={places}
+     />
      <Contact />
      <Instagram />
 

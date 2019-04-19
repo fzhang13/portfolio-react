@@ -1,0 +1,176 @@
+[
+    {
+      "id": 1,
+      "name": "China",
+      "latitude": "39.9042",
+      "longitude": "116.4074"
+    },
+    {
+      "id": 2,
+      "name": "Taiwan",
+      "latitude": "25.0330",
+      "longitude": "121.5654"
+    },
+    {
+      "id": 3,
+      "name": "Korea",
+      "latitude": "37.5665",
+      "longitude": "126.9780"
+    },{
+      "id": 4,
+      "name": "Japan",
+      "latitude": "35.6762",
+      "longitude": "139.6503"
+    },{
+      "id": 5,
+      "name": "Malaysia",
+      "latitude": "3.1390",
+      "longitude": "101.6869"
+    },{
+      "id": 6,
+      "name": "Thailand",
+      "latitude": "13.7563",
+      "longitude": "100.5018"
+    },{
+      "id": 7,
+      "name": "Singapore",
+      "latitude": "1.3521",
+      "longitude": "103.8198"
+    },{
+      "id": 8,
+      "name": "Hong Kong",
+      "latitude": "22.3193",
+      "longitude": "114.1694"
+    },{
+      "id": 9,
+      "name": "United Kingdom",
+      "latitude": "51.5074",
+      "longitude": "0.1278"
+    },{
+      "id": 10,
+      "name": "France",
+      "latitude": "48.856",
+      "longitude": "2.3522"
+    },{
+      "id": 11,
+      "name": "Germany",
+      "latitude": "52.5200",
+      "longitude": "13.4050"
+    },{
+      "id": 12,
+      "name": "Belgium",
+      "latitude": "50.8503",
+      "longitude": "4.3517"
+    },{
+      "id": 13,
+      "name": "Spain",
+      "latitude": "40.4168",
+      "longitude": "-3.7038"
+    },{
+      "id": 14,
+      "name": "Netherlands",
+      "latitude": "52.3680",
+      "longitude": "4.9036"
+    },{
+      "id": 15,
+      "name": "Denmark",
+      "latitude": "55.6761",
+      "longitude": "12.5683"
+    },{
+      "id": 16,
+      "name": "Portugal",
+      "latitude": "38.7223",
+      "longitude": "-9.1393"
+    },{
+      "id": 17,
+      "name": "Czech Republic",
+      "latitude": "50.0755",
+      "longitude": "14.4378"
+    },{
+      "id": 18,
+      "name": "Hungary",
+      "latitude": "47.4979",
+      "longitude": "19.0402"
+    },{
+      "id": 19,
+      "name": "Austria",
+      "latitude": "48.2082",
+      "longitude": "16.3738"
+    },{
+      "id": 20,
+      "name": "Italy",
+      "latitude": "41.9028",
+      "longitude": "12.4964"
+    },{
+      "id": 21,
+      "name": "Turkey",
+      "latitude": "41.0082",
+      "longitude": "28.9784"
+    },{
+      "id": 22,
+      "name": "Australia",
+      "latitude": "-33.8688",
+      "longitude": "151.2093"
+    },{
+      "id": 23,
+      "name": "New Zealand",
+      "latitude": "-36.8485",
+      "longitude": "174.7633"
+    },{
+      "id": 24,
+      "name": "Ottawa",
+      "latitude": "45.4215",
+      "longitude": "-75.6972"
+    },{
+      "id": 25,
+      "name": "New York",
+      "latitude": "40.7128",
+      "longitude": "-74.0060"
+    },{
+      "id": 26,
+      "name": "Washington D.C.",
+      "latitude": "38.9072",
+      "longitude": "-77.0369"
+    },{
+      "id": 27,
+      "name": "Boston",
+      "latitude": "42.3601",
+      "longitude": "-71.0589"
+    },{
+      "id": 28,
+      "name": "Chicago",
+      "latitude": "41.8781",
+      "longitude": "-87.6298"
+    },{
+      "id": 29,
+      "name": "San Francisco",
+      "latitude": "37.7749",
+      "longitude": "-122.4194"
+    },{
+      "id": 30,
+      "name": "Los Angeles",
+      "latitude": "34.0522",
+      "longitude": "-118.2437"
+    },{
+      "id": 31,
+      "name": "Las Vegas",
+      "latitude": "36.1699",
+      "longitude": "-115.1398"
+    },{
+      "id": 32,
+      "name": "Montreal",
+      "latitude": "45.5017",
+      "longitude": "-73.5673"
+    },{
+      "id": 33,
+      "name": "Vancouver",
+      "latitude": "49.2827",
+      "longitude": "-123.1207"
+    },{
+      "id": 34,
+      "name": "Home",
+      "latitude": "43.6532",
+      "longitude": "-79.3832"
+    }
+    
+  ]

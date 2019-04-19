@@ -14,7 +14,7 @@ export default class About extends Component {
                       and attention to detail. In my spare time, I like to apply myself physically and challenge myself
                       to reach new heights constantly.
                     </p>
-                    <br></br><a href="./resume.html"> <button class="btn btn-default btn-lg active">CV/Resume</button></a>
+                    <br></br><a href="resume.html"rel="noopener noreferrer"> <button class="btn btn-default btn-lg active">CV/Resume</button></a>
                     
                     <div class="col-sm-4">
                         <span class="portrait"><img src="img/portrait.jpg" alt="portrait" class="headshot"></img></span>
